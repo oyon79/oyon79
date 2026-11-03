@@ -117,11 +117,28 @@ Agriculture-focused platform connecting farmers with the market.
 
 ## Experience &amp; Achievements
 
-|     | Role / Award                                    | Where        |
-| --- | ----------------------------------------------- | ------------ |
-| 💼  | **Full Stack Development Intern**               | Softeins Lab |
-| 🏆  | **1st Runner-Up**, AOOP Project Show, Fall 2025 | UIU          |
-| 🛡️  | **SafetyNet**, recognized project (see above)   | UIU          |
+<table width="100%">
+  <tr>
+    <th width="6%"></th>
+    <th align="left" width="64%">Role / Award</th>
+    <th align="left" width="30%">Where</th>
+  </tr>
+  <tr>
+    <td align="center">💼</td>
+    <td><b>Full Stack Development Intern</b></td>
+    <td>Softeins Lab</td>
+  </tr>
+  <tr>
+    <td align="center">🏆</td>
+    <td><b>1st Runner-Up</b>, AOOP Project Show, Fall 2025</td>
+    <td>United International University (UIU)</td>
+  </tr>
+  <tr>
+    <td align="center">🛡️</td>
+    <td><b>SafetyNet</b>, recognized project (see above)</td>
+    <td>United International University (UIU)</td>
+  </tr>
+</table>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
