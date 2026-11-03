@@ -1,17 +1,18 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Welcome to Sahriar's GitHub banner" width="100%"/>
-
 <a href="https://github.com/oyon79">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&height=48&lines=Md.+Sahriar+Hossain;Software+Developer;Full+Stack+Developer;Backend+Engineering+Enthusiast" alt="Typing animation: Md. Sahriar Hossain, Software Developer, Full Stack Developer, Backend Engineering Enthusiast"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=60&lines=Md.+Sahriar+Hossain;Software+Developer;Full+Stack+Developer;Backend+Engineering+Enthusiast" alt="Typing animation: Md. Sahriar Hossain, Software Developer, Full Stack Developer, Backend Engineering Enthusiast"/>
 </a>
 
-**Build. Learn. Innovate.**
+<br/>
 
-<a href="https://github.com/oyon79"><img src="https://img.shields.io/badge/GitHub-oyon79-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub profile"/></a>
-<a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://img.shields.io/badge/LinkedIn-Md._Sahriar_Hossain-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile"/></a>
-<a href="mailto:mdsahriar2620@gmail.com"><img src="https://img.shields.io/badge/Email-mdsahriar2620@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Send an email"/></a>
-<img src="https://img.shields.io/badge/Dhaka-Bangladesh-34d399?style=flat-square&logo=googlemaps&logoColor=white" alt="Location: Dhaka, Bangladesh"/>
+<a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/></a>&nbsp;&nbsp;
+<a href="https://github.com/oyon79"><img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/></a>&nbsp;&nbsp;
+<a href="mailto:mdsahriar2620@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/>
 
 </div>
 
