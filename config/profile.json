@@ -1,0 +1,33 @@
+{
+  "username": "oyon79",
+  "name": "Md. Sahriar Hossain",
+  "email": "mdsahriar2620@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/md-sahriar-hossain-671545255/",
+  "projects": [
+    {
+      "name": "Israt Caregiver SaaS",
+      "description": "Healthcare SaaS platform for managing caregiving services.",
+      "stack": ["Next.js", "React", "NestJS", "TypeScript"],
+      "repo": null
+    },
+    {
+      "name": "UIU Social Connect",
+      "description": "Social networking platform for UIU students with a feed, messaging and community features.",
+      "stack": ["Node.js", "Express", "Socket.IO", "MySQL"],
+      "repo": "oyon79/UIU-Social-Connect"
+    },
+    {
+      "name": "SafetyNet",
+      "description": "Personal safety-focused mobile application.",
+      "highlight": "🏆 **1st Runner-Up**, UIU AOOP Project Show, Fall 2025.",
+      "stack": ["React Native", "Spring Boot"],
+      "repo": null
+    },
+    {
+      "name": "Krishoker Ponno",
+      "description": "Agriculture-focused platform connecting farmers with the market.",
+      "stack": ["Flutter", "Supabase"],
+      "repo": "oyon79/Krishoker_Ponno"
+    }
+  ]
+}

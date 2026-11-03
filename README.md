@@ -1,112 +1,146 @@
- <div align="center">
+<div align="center">
 
-# Md. Sahriar Hossain
+<img src="./assets/banner.svg" alt="Welcome to Sahriar's GitHub banner" width="100%"/>
 
-### Software Developer | CSE Student | Lifelong Learner
+<a href="https://github.com/oyon79">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&height=48&lines=Md.+Sahriar+Hossain;Software+Developer;Full+Stack+Developer;Backend+Engineering+Enthusiast" alt="Typing animation: Md. Sahriar Hossain, Software Developer, Full Stack Developer, Backend Engineering Enthusiast"/>
+</a>
 
-*Building the logic, not just the looks.*
+**Build. Learn. Innovate.**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/oyon79)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/oyon79)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sahriarhossain000@gmail.com)
-
-📍 Dhaka, Bangladesh
+<a href="https://github.com/oyon79"><img src="https://img.shields.io/badge/GitHub-oyon79-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub profile"/></a>
+<a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://img.shields.io/badge/LinkedIn-Md._Sahriar_Hossain-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile"/></a>
+<a href="mailto:mdsahriar2620@gmail.com"><img src="https://img.shields.io/badge/Email-mdsahriar2620@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Send an email"/></a>
+<img src="https://img.shields.io/badge/Dhaka-Bangladesh-34d399?style=flat-square&logo=googlemaps&logoColor=white" alt="Location: Dhaka, Bangladesh"/>
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
-## 👨‍💻 About Me
+## About Me
 
-I'm **Md. Sahriar Hossain**, a 4th-year Computer Science and Engineering student at **United International University (UIU)**, Bangladesh.
+Hello, I'm **Md. Sahriar Hossain**, a software developer from Dhaka who enjoys turning ideas into practical, well-structured applications.
 
-I'm passionate about software engineering, building practical applications, and exploring modern technologies.
+- 🎓 4th Year **CSE** student at **United International University (UIU)**
+- 💼 **Full Stack Development Intern** at **Softeins Lab**
+- 🧠 Interested in **Software Engineering** and **Backend Development**
+- ☁️ Currently exploring **Cloud Computing** and **DevOps**
+- 🛠️ Passionate about building **practical software solutions**
 
-- 🎓 CSE Undergraduate at United International University.
-- 💻 Interested in Full Stack & Backend Development.
-- 🏢 Full Stack Development Intern at Softeins Lab.
-- 🌱 Currently exploring Cloud Computing and DevOps.
-- 🚀 Interested in scalable systems and real-world software solutions.
-- 🎯 Working towards becoming a Backend / Platform Engineer.
+```text
+$ whoami
+> Md. Sahriar Hossain
 
----
+$ cat focus.txt
+> Full Stack · Backend
+> Cloud · DevOps
 
-## 👨‍💻 Programming and Markup Languages
+$ status
+> Building. Learning. Shipping.
+```
 
-<p>
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,ts,html,css&theme=dark" />
-</p>
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
-## 🧰 Frameworks and Libraries
+## Technologies
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,nestjs,express,spring,tailwind&theme=dark" />
-</p>
+**Languages**<br>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,ts" alt="C, C++, Java, Python, JavaScript, TypeScript"/>
 
-## 🗄️ Databases and Cloud Technologies
+**Frontend**<br>
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" alt="HTML, CSS, React, Next.js, Tailwind CSS"/>
 
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,supabase,prisma,docker,aws&theme=dark" />
-</p>
+**Backend**<br>
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,spring" alt="Node.js, Express.js, NestJS, Spring Boot"/>
 
-## 💻 Software and Development Tools
+**Database &amp; Tools**<br>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,prisma,git,github,docker,linux,vscode" alt="MySQL, PostgreSQL, MongoDB, Prisma, Git, GitHub, Docker, Linux, VS Code"/>
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,figma,postman,idea&theme=dark" />
-</p>
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
----
-
-## 🚀 Featured Projects
-
-| Project | Description | Technologies |
-|---|---|---|
-| [Fabric Defect Detection](https://github.com/oyon79/Fabric-Defect-Detection_And_Lead-Time-Prediction) | Fabric defect detection and lead-time prediction framework | Python |
-| [UIU Social Connect](https://github.com/oyon79/UIU-Social-Connect) | Social networking platform for UIU students | Node.js, Express, Socket.IO, MySQL |
-| [Portfolio Website](https://github.com/oyon79/portfolio-site) | Personal developer portfolio | CSS |
-| [FlowTalk](https://github.com/oyon79/FlowTalk) | Communication-focused development project | HTML |
-| Israt Caregiver SaaS | Healthcare SaaS platform developed during internship | Next.js, NestJS, React |
-
----
-
-## 🏆 Achievements
-
-- 🥈 1st Runner-Up — UIU AOOP Project Show, Fall 2025.
-- 🚀 Developed SafetyNet, a personal safety-focused mobile application using React Native and Spring Boot.
-- 💼 Full Stack Development Internship — Softeins Lab.
-
----
-
-## 📊 GitHub Profile Stats
+## GitHub Statistics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=oyon79&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
+<img src="https://github-readme-stats.vercel.app/api?username=oyon79&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=a78bfa&text_color=c9d1d9&ring_color=22d3ee&rank_icon=github" alt="GitHub stats: stars, commits, pull requests, issues, contributed repositories and rank" width="440"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oyon79&layout=default&langs_count=6&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Most used languages with percentage bars" width="300"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oyon79&layout=compact&theme=transparent&hide_border=true&langs_count=8" />
+<img src="https://streak-stats.demolab.com/?user=oyon79&theme=dark&hide_border=true&background=0d1117&ring=22d3ee&fire=a78bfa&currStreakNum=58a6ff&sideNums=58a6ff&currStreakLabel=34d399&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak: total contributions, current streak and longest streak" width="500"/>
 
 </div>
 
-## 📈 Contribution Activity
-
+<details open>
+<summary>Static snapshot (fallback if live cards are blank)</summary>
+<br>
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=oyon79&theme=github-compact&hide_border=true" width="100%" />
+<img src="./stats/github-stats.svg" alt="Static snapshot of GitHub statistics" width="440"/>
+<img src="./stats/top-languages.svg" alt="Static snapshot of most used languages" width="300"/>
+
+<sub>Generated from the public GitHub API by <code>scripts/generate.mjs</code> (commit, PR and issue counts are public activity only). Live profile: <a href="https://github.com/oyon79">github.com/oyon79</a>.</sub>
 
 </div>
+</details>
 
----
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
-## 🤝 Connect With Me
+## Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=oyon79&bg_color=0d1117&color=58a6ff&line=a78bfa&point=22d3ee&area=true&area_color=a78bfa&hide_border=true&title_color=58a6ff&radius=8" alt="Contribution activity line chart for oyon79" width="100%"/>
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+## Featured Projects
+
+<!-- PROJECTS:START -->
+
+### Israt Caregiver SaaS
+
+Healthcare SaaS platform for managing caregiving services.
+
+`Next.js` `React` `NestJS` `TypeScript`
+
+<br>
+
+### [UIU Social Connect](https://github.com/oyon79/UIU-Social-Connect)
+
+Social networking platform for UIU students with a feed, messaging and community features.
+
+`Node.js` `Express` `Socket.IO` `MySQL`
+
+<br>
+
+### SafetyNet
+
+Personal safety-focused mobile application.<br>🏆 **1st Runner-Up**, UIU AOOP Project Show, Fall 2025.
+
+`React Native` `Spring Boot`
+
+<br>
+
+### [Krishoker Ponno](https://github.com/oyon79/Krishoker_Ponno)
+
+Agriculture-focused platform connecting farmers with the market.
+
+`Flutter` `Supabase`
+
+<!-- PROJECTS:END -->
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
+
+## Experience &amp; Achievements
+
+|     | Role / Award                                    | Where        |
+| --- | ----------------------------------------------- | ------------ |
+| 💼  | **Full Stack Development Intern**               | Softeins Lab |
+| 🏆  | **1st Runner-Up**, AOOP Project Show, Fall 2025 | UIU          |
+| 🛡️  | **SafetyNet**, recognized project (see above)   | UIU          |
+
+<img src="./assets/divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-oyon79-181717?style=for-the-badge&logo=github)](https://github.com/oyon79)
+<a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><b>Let's connect</b></a> · <a href="mailto:mdsahriar2620@gmail.com"><b>Say hello</b></a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/oyon79)
-
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:sahriarhossain000@gmail.com)
-
-### Building the future, one commit at a time. 🚀
+<img src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:3b82f6,50:a855f7,100:34d399&section=footer" alt="" width="100%"/>
 
 </div>

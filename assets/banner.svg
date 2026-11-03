@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Welcome to Md. Sahriar Hossain's GitHub">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#101734"/>
+      <stop offset="1" stop-color="#1a1240"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="reveal">
+      <rect x="0" y="0" width="1000" height="260">
+        <animate attributeName="width" from="0" to="1000" dur="2.4s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="260" rx="14" fill="url(#bg)"/>
+
+  <!-- soft drifting glows -->
+  <circle cx="160" cy="60" r="110" fill="#3b82f6" opacity="0.10">
+    <animate attributeName="cx" values="160;220;160" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="200" r="130" fill="#a855f7" opacity="0.12">
+    <animate attributeName="cx" values="850;790;850" dur="14s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- landscape waves -->
+  <path fill="url(#w1)" d="M0 210 C 150 160, 300 250, 500 200 S 850 170, 1000 215 L1000 260 L0 260 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 210 C 150 160, 300 250, 500 200 S 850 170, 1000 215 L1000 260 L0 260 Z;
+              M0 220 C 150 250, 300 170, 500 215 S 850 235, 1000 200 L1000 260 L0 260 Z;
+              M0 210 C 150 160, 300 250, 500 200 S 850 170, 1000 215 L1000 260 L0 260 Z"/>
+  </path>
+  <path fill="url(#w2)" d="M0 232 C 200 205, 380 250, 560 226 S 860 205, 1000 236 L1000 260 L0 260 Z">
+    <animate attributeName="d" dur="11s" repeatCount="indefinite"
+      values="M0 232 C 200 205, 380 250, 560 226 S 860 205, 1000 236 L1000 260 L0 260 Z;
+              M0 238 C 200 250, 380 215, 560 236 S 860 248, 1000 224 L1000 260 L0 260 Z;
+              M0 232 C 200 205, 380 250, 560 226 S 860 205, 1000 236 L1000 260 L0 260 Z"/>
+  </path>
+
+  <!-- title (typed reveal) -->
+  <g clip-path="url(#reveal)" font-family="'Segoe UI', 'SF Mono', Consolas, monospace" text-anchor="middle">
+    <text x="500" y="112" font-size="38" font-weight="700" fill="url(#title)">Welcome to Sahriar's GitHub &lt;/&gt;</text>
+    <text x="500" y="152" font-size="18" fill="#9fb0d0" letter-spacing="3">BUILD. LEARN. INNOVATE.</text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="0" y="82" width="3" height="40" fill="#22d3ee" opacity="0">
+    <animate attributeName="x" from="316" to="684" dur="2.4s" begin="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.97;1" dur="2.4s" begin="0.3s" fill="freeze"/>
+  </rect>
+</svg>
