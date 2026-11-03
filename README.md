@@ -27,17 +27,11 @@ Hello, I'm **Md. Sahriar Hossain**, a software developer from Dhaka who enjoys t
 - ☁️ Currently exploring **Cloud Computing** and **DevOps**
 - 🛠️ Passionate about building **practical software solutions**
 
-```text
-$ whoami
-> Md. Sahriar Hossain
+<div align="center">
 
-$ cat focus.txt
-> Full Stack · Backend
-> Cloud · DevOps
+<img src="./assets/terminal.svg" alt="Terminal: whoami Md. Sahriar Hossain; focus Full Stack, Backend, Cloud, DevOps; status Building. Learning. Shipping." width="100%"/>
 
-$ status
-> Building. Learning. Shipping.
-```
+</div>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 

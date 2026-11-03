@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="286" viewBox="0 0 800 286" role="img" aria-label="Terminal: whoami Md. Sahriar Hossain; focus Full Stack, Backend, Cloud, DevOps; status Building. Learning. Shipping.">
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace;font-size:15px}
+@keyframes k0{0%,0.00%{width:0}6.88%,94%{width:76px}100%{width:0}}#c0{animation:k0 16.0s steps(8,end) infinite}
+@keyframes m0{0%,0.00%{opacity:0;transform:translateX(0)}0.00%{opacity:1;transform:translateX(0)}6.88%,8.75%{opacity:1;transform:translateX(72px)}8.76%,100%{opacity:0;transform:translateX(72px)}}#m0{animation:m0 16.0s steps(8,end) infinite}
+@keyframes k1{0%,8.75%{width:0}15.62%,94%{width:193px}100%{width:0}}#c1{animation:k1 16.0s steps(21,end) infinite}
+@keyframes m1{0%,8.74%{opacity:0;transform:translateX(0)}8.75%{opacity:1;transform:translateX(0)}15.62%,17.50%{opacity:1;transform:translateX(189px)}17.51%,100%{opacity:0;transform:translateX(189px)}}#m1{animation:m1 16.0s steps(21,end) infinite}
+@keyframes k3{0%,17.50%{width:0}24.38%,94%{width:139px}100%{width:0}}#c3{animation:k3 16.0s steps(15,end) infinite}
+@keyframes m3{0%,17.49%{opacity:0;transform:translateX(0)}17.50%{opacity:1;transform:translateX(0)}24.38%,26.25%{opacity:1;transform:translateX(135px)}26.26%,100%{opacity:0;transform:translateX(135px)}}#m3{animation:m3 16.0s steps(15,end) infinite}
+@keyframes k4{0%,26.25%{width:0}33.12%,94%{width:202px}100%{width:0}}#c4{animation:k4 16.0s steps(22,end) infinite}
+@keyframes m4{0%,26.24%{opacity:0;transform:translateX(0)}26.25%{opacity:1;transform:translateX(0)}33.12%,35.00%{opacity:1;transform:translateX(198px)}35.01%,100%{opacity:0;transform:translateX(198px)}}#m4{animation:m4 16.0s steps(22,end) infinite}
+@keyframes k5{0%,35.00%{width:0}41.87%,94%{width:148px}100%{width:0}}#c5{animation:k5 16.0s steps(16,end) infinite}
+@keyframes m5{0%,34.99%{opacity:0;transform:translateX(0)}35.00%{opacity:1;transform:translateX(0)}41.87%,43.75%{opacity:1;transform:translateX(144px)}43.76%,100%{opacity:0;transform:translateX(144px)}}#m5{animation:m5 16.0s steps(16,end) infinite}
+@keyframes k7{0%,43.75%{width:0}50.62%,94%{width:76px}100%{width:0}}#c7{animation:k7 16.0s steps(8,end) infinite}
+@keyframes m7{0%,43.74%{opacity:0;transform:translateX(0)}43.75%{opacity:1;transform:translateX(0)}50.62%,52.50%{opacity:1;transform:translateX(72px)}52.51%,100%{opacity:0;transform:translateX(72px)}}#m7{animation:m7 16.0s steps(8,end) infinite}
+@keyframes k8{0%,52.50%{width:0}59.37%,94%{width:283px}100%{width:0}}#c8{animation:k8 16.0s steps(31,end) infinite}
+@keyframes m8{0%,52.49%{opacity:0;transform:translateX(0)}52.50%{opacity:1;transform:translateX(0)}59.37%,94.00%{opacity:1;transform:translateX(279px)}94.01%,100%{opacity:0;transform:translateX(279px)}}#m8{animation:m8 16.0s steps(31,end) infinite}
+</style>
+<rect width="800" height="286" rx="10" fill="#161b22" stroke="#30363d"/>
+<circle cx="24" cy="22" r="6" fill="#ff5f56"/><circle cx="44" cy="22" r="6" fill="#ffbd2e"/><circle cx="64" cy="22" r="6" fill="#27c93f"/>
+<clipPath id="p0"><rect id="c0" x="40" y="44" width="0" height="22"/></clipPath><text x="40" y="60" clip-path="url(#p0)" fill="#7ee787">$ whoami</text>
+<clipPath id="p1"><rect id="c1" x="40" y="68" width="0" height="22"/></clipPath><text x="40" y="84" clip-path="url(#p1)" fill="#c9d1d9">> Md. Sahriar Hossain</text>
+<clipPath id="p3"><rect id="c3" x="40" y="116" width="0" height="22"/></clipPath><text x="40" y="132" clip-path="url(#p3)" fill="#7ee787">$ cat focus.txt</text>
+<clipPath id="p4"><rect id="c4" x="40" y="140" width="0" height="22"/></clipPath><text x="40" y="156" clip-path="url(#p4)" fill="#c9d1d9">> Full Stack · Backend</text>
+<clipPath id="p5"><rect id="c5" x="40" y="164" width="0" height="22"/></clipPath><text x="40" y="180" clip-path="url(#p5)" fill="#c9d1d9">> Cloud · DevOps</text>
+<clipPath id="p7"><rect id="c7" x="40" y="212" width="0" height="22"/></clipPath><text x="40" y="228" clip-path="url(#p7)" fill="#7ee787">$ status</text>
+<clipPath id="p8"><rect id="c8" x="40" y="236" width="0" height="22"/></clipPath><text x="40" y="252" clip-path="url(#p8)" fill="#c9d1d9">> Building. Learning. Shipping.</text>
+<g class="cur"><rect id="m0" x="40" y="46" width="9" height="18" fill="#58a6ff" opacity="0"/></g>
+<g class="cur"><rect id="m1" x="40" y="70" width="9" height="18" fill="#58a6ff" opacity="0"/></g>
+<g class="cur"><rect id="m3" x="40" y="118" width="9" height="18" fill="#58a6ff" opacity="0"/></g>
+<g class="cur"><rect id="m4" x="40" y="142" width="9" height="18" fill="#58a6ff" opacity="0"/></g>
+<g class="cur"><rect id="m5" x="40" y="166" width="9" height="18" fill="#58a6ff" opacity="0"/></g>
+<g class="cur"><rect id="m7" x="40" y="214" width="9" height="18" fill="#58a6ff" opacity="0"/></g>
+<g class="cur"><rect id="m8" x="40" y="238" width="9" height="18" fill="#58a6ff" opacity="0"/></g>
+</svg>
