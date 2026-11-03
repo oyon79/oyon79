@@ -12,13 +12,33 @@
 
 ## About Me
 
-Hello, I'm **Md. Sahriar Hossain**, a software developer from Dhaka who enjoys turning ideas into practical, well-structured applications.
+Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the human side of engineering: solving complex problems, designing smart architecture and building intelligent systems.
 
-- 🎓 4th Year **CSE** student at **United International University (UIU)**
-- 💼 **Full Stack Development Intern** at **Softeins Lab**
-- 🧠 Interested in **Software Engineering** and **Backend Development**
-- ☁️ Currently exploring **Cloud Computing** and **DevOps**
-- 🛠️ Passionate about building **practical software solutions**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎓 Education</h4>
+      <b>CSE Graduate</b><br/>
+      United International University (UIU)
+    </td>
+    <td width="50%" valign="top">
+      <h4>💼 Experience</h4>
+      <b>Full Stack Intern</b><br/>
+      Softeins Lab · System Architecture &amp; Backend
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Aspiring</h4>
+      <b>AI/ML Engineer</b><br/>
+      Crafting data-driven logic &amp; models
+    </td>
+    <td width="50%" valign="top">
+      <h4>💡 Core Focus</h4>
+      <b>AI/ML</b> · <b>Scalable Architecture</b> · <b>Problem Solving</b>
+    </td>
+  </tr>
+</table>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
