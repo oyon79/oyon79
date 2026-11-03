@@ -43,17 +43,7 @@ $ status
 
 ## Technologies
 
-**Languages**<br>
-<img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,ts" alt="C, C++, Java, Python, JavaScript, TypeScript"/>
-
-**Frontend**<br>
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind" alt="HTML, CSS, React, Next.js, Tailwind CSS"/>
-
-**Backend**<br>
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,spring" alt="Node.js, Express.js, NestJS, Spring Boot"/>
-
-**Database &amp; Tools**<br>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,prisma,git,github,docker,linux,vscode" alt="MySQL, PostgreSQL, MongoDB, Prisma, Git, GitHub, Docker, Linux, VS Code"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,ts,html,css,react,nextjs,tailwind,nodejs,express,nestjs,spring,mysql,postgres,mongodb,prisma,git,github,docker,linux,vscode&perline=12" alt="C, C++, Java, Python, JavaScript, TypeScript, HTML, CSS, React, Next.js, Tailwind CSS, Node.js, Express.js, NestJS, Spring Boot, MySQL, PostgreSQL, MongoDB, Prisma, Git, GitHub, Docker, Linux, VS Code"/>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
