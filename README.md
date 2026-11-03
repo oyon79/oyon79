@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/oyon79">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&height=60&lines=Md.+Sahriar+Hossain;Software+Developer;Full+Stack+Developer;Backend+Engineering+Enthusiast" alt="Typing animation: Md. Sahriar Hossain, Software Developer, Full Stack Developer, Backend Engineering Enthusiast"/>
+  <img src="./assets/typing.svg" alt="Typing animation: Md. Sahriar Hossain, Software Developer, Full Stack Developer, Backend Engineering Enthusiast" width="100%" style="max-width:760px"/>
 </a>
 
 <br/>
