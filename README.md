@@ -125,18 +125,18 @@ Agriculture-focused platform connecting farmers with the market.
   </tr>
   <tr>
     <td align="center">💼</td>
-    <td><b>Full Stack Development Intern</b></td>
-    <td>Softeins Lab</td>
+    <td><b>Full&nbsp;Stack&nbsp;Development&nbsp;Intern</b></td>
+    <td>Softeins&nbsp;Lab</td>
   </tr>
   <tr>
     <td align="center">🏆</td>
     <td><b>1st Runner-Up</b>, AOOP Project Show, Fall 2025</td>
-    <td>United International University (UIU)</td>
+    <td>United&nbsp;International&nbsp;University&nbsp;(UIU)</td>
   </tr>
   <tr>
     <td align="center">🛡️</td>
     <td><b>SafetyNet</b>, recognized project (see above)</td>
-    <td>United International University (UIU)</td>
+    <td>United&nbsp;International&nbsp;University&nbsp;(UIU)</td>
   </tr>
 </table>
 
