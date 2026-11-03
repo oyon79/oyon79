@@ -120,8 +120,8 @@ Agriculture-focused platform connecting farmers with the market.
 <table width="100%">
   <tr>
     <th width="6%"></th>
-    <th align="left" width="64%">Role / Award</th>
-    <th align="left" width="30%">Where</th>
+    <th align="left" width="54%">Role / Award</th>
+    <th align="left" width="40%">Where</th>
   </tr>
   <tr>
     <td align="center">💼</td>
