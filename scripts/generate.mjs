@@ -130,7 +130,7 @@ ${col(267, longest, "Longest Streak", "#34d399", longest ? `ending ${fmt(longest
 
   // animated bar chart of the last 30 days
   const last = past.slice(-30);
-  const W = 900, H = 230, L = 44, R = 20, T = 62, B = 36;
+  const W = 900, H = 205, L = 44, R = 20, T = 58, B = 32;
   const max = Math.max(4, ...last.map((d) => d.n));
   const top = Math.ceil(max / 4) * 4;
   const slot = (W - L - R) / Math.max(1, last.length), bw = Math.min(18, slot * 0.58);
@@ -157,7 +157,7 @@ ${grid}${bars}
 </svg>\n`;
   await mkdir(path.join(root, "stats"), { recursive: true });
   await writeFile(path.join(root, "stats/streak.svg"), streak);
-  await writeFile(path.join(root, "stats/activity.svg"), chart);
+  await writeFile(path.join(root, "stats/contribution-activity.svg"), chart);
   console.log(`contrib: total ${total}, current streak ${cur}, longest ${longest}`);
 }
 

@@ -61,7 +61,7 @@ Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the h
 
 ## Contribution Graph
 
-<img src="./stats/activity.svg" alt="Animated bar chart of contributions for the last 30 days" width="100%"/>
+<img src="./stats/contribution-activity.svg" alt="Animated bar chart of contributions for the last 30 days" width="100%"/>
 
 <div align="center">
 

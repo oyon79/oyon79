@@ -1,6 +1,9 @@
 name: Refresh static stats
 on:
   schedule: [{ cron: "0 */6 * * *" }]
+  push:
+    branches: [main]
+    paths: ["scripts/generate.mjs", "config/profile.json"]
   workflow_dispatch:
 permissions:
   contents: write
