@@ -61,31 +61,20 @@ $ status
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=oyon79&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=a78bfa&text_color=c9d1d9&ring_color=22d3ee&rank_icon=github" alt="GitHub stats: stars, commits, pull requests, issues, contributed repositories and rank" width="440"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oyon79&layout=default&langs_count=6&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Most used languages with percentage bars" width="300"/>
+<img src="./stats/github-stats.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers" width="440"/>
+<img src="./stats/top-languages.svg" alt="Most used languages with percentage bars" width="300"/>
 
-<img src="https://streak-stats.demolab.com/?user=oyon79&theme=dark&hide_border=true&background=0d1117&ring=22d3ee&fire=a78bfa&currStreakNum=58a6ff&sideNums=58a6ff&currStreakLabel=34d399&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak: total contributions, current streak and longest streak" width="500"/>
+<img src="./stats/streak.svg" alt="GitHub streak: total contributions, current streak and longest streak" width="500"/>
 
-</div>
-
-<details open>
-<summary>Static snapshot (fallback if live cards are blank)</summary>
-<br>
-<div align="center">
-
-<img src="./stats/github-stats.svg" alt="Static snapshot of GitHub statistics" width="440"/>
-<img src="./stats/top-languages.svg" alt="Static snapshot of most used languages" width="300"/>
-
-<sub>Generated from the public GitHub API by <code>scripts/generate.mjs</code> (commit, PR and issue counts are public activity only). Live profile: <a href="https://github.com/oyon79">github.com/oyon79</a>.</sub>
+<sub>Generated from public GitHub data by <code>scripts/generate.mjs</code> and refreshed weekly. Counts cover public activity only.</sub>
 
 </div>
-</details>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
 ## Contribution Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=oyon79&bg_color=0d1117&color=58a6ff&line=a78bfa&point=22d3ee&area=true&area_color=a78bfa&hide_border=true&title_color=58a6ff&radius=8" alt="Contribution activity line chart for oyon79" width="100%"/>
+<img src="./stats/activity.svg" alt="Contribution activity line chart for the last 30 days" width="100%"/>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 

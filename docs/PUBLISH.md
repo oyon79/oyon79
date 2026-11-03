@@ -16,3 +16,8 @@
 - `node scripts/generate.mjs --stats` regenerates the static fallback cards in `stats/` from real GitHub API data.
   `.github/workflows/refresh-stats.yml` does this weekly once the repo is on GitHub.
 - Local preview: `python -m http.server 8765` in the project folder, then open http://localhost:8765/preview/index.html
+
+## Stats are now self-generated
+The third-party cards (github-readme-stats, streak-stats, activity-graph on vercel/demolab) were paused/rate-limited,
+so the README now uses local SVGs in `stats/` built by `node scripts/generate.mjs` (no external service, no token needed).
+Commit the `stats/` folder; the weekly workflow keeps it fresh.
