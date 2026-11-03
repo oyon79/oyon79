@@ -14,29 +14,12 @@
 
 Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the human side of engineering: solving complex problems, designing smart architecture and building intelligent systems.
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h4>🎓 Education</h4>
-      <b>CSE Graduate</b><br/>
-      United International University (UIU)
-    </td>
-    <td width="50%" valign="top">
-      <h4>💼 Experience</h4>
-      <b>Full Stack Intern</b><br/>
-      Softeins Lab · System Architecture &amp; Backend
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🤖 Aspiring</h4>
-      <b>AI/ML Engineer</b><br/>
-      Crafting data-driven logic &amp; models
-    </td>
-    <td width="50%" valign="top">
-      <h4>💡 Core Focus</h4>
-      <b>AI/ML</b> · <b>Scalable Architecture</b> · <b>Problem Solving</b>
-    </td>
+    <td width="25%" valign="top">🎓 <b>Education</b><br/>CSE Graduate<br/>United International University (UIU)</td>
+    <td width="25%" valign="top">💼 <b>Experience</b><br/>Full Stack Intern<br/>Softeins Lab · Architecture &amp; Backend</td>
+    <td width="25%" valign="top">🤖 <b>Aspiring</b><br/>AI/ML Engineer<br/>Data-driven logic &amp; models</td>
+    <td width="25%" valign="top">💡 <b>Core Focus</b><br/>AI/ML · Scalable Architecture<br/>Problem Solving</td>
   </tr>
 </table>
 
