@@ -28,12 +28,6 @@ Hello, I'm **Md. Sahriar Hossain**, a software developer from Dhaka who enjoys t
 - ☁️ Currently exploring **Cloud Computing** and **DevOps**
 - 🛠️ Passionate about building **practical software solutions**
 
-<div align="center">
-
-<img src="./assets/terminal.svg" alt="Terminal: whoami Md. Sahriar Hossain; focus Full Stack, Backend, Cloud, DevOps; status Building. Learning. Shipping." width="100%"/>
-
-</div>
-
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
 ## Technologies
@@ -60,12 +54,11 @@ Hello, I'm **Md. Sahriar Hossain**, a software developer from Dhaka who enjoys t
 
 <div align="center">
 
-<img src="./stats/github-stats.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers" width="440"/>
-<img src="./stats/top-languages.svg" alt="Most used languages with percentage bars" width="300"/>
+<img src="./stats/github-stats.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers" width="32%"/>
+<img src="./stats/top-languages.svg" alt="Most used languages with percentage bars" width="32%"/>
+<img src="./stats/streak.svg" alt="GitHub streak: total contributions, current streak and longest streak" width="32%"/>
 
-<img src="./stats/streak.svg" alt="GitHub streak: total contributions, current streak and longest streak" width="500"/>
-
-<sub>Generated from public GitHub data by <code>scripts/generate.mjs</code> and refreshed weekly. Counts cover public activity only.</sub>
+<sub>Generated from public GitHub data by <code>scripts/generate.mjs</code> and refreshed every 6 hours. Counts cover public activity only.</sub>
 
 </div>
 
@@ -74,6 +67,13 @@ Hello, I'm **Md. Sahriar Hossain**, a software developer from Dhaka who enjoys t
 ## Contribution Graph
 
 <img src="./stats/activity.svg" alt="Contribution activity line chart for the last 30 days" width="100%"/>
+
+<div align="center">
+
+<sub>Contributions by year</sub><br/>
+<a href="https://github.com/oyon79?tab=overview&from=2026-01-01&to=2026-12-31"><img src="https://img.shields.io/badge/2026-21262d?style=for-the-badge" alt="Contributions in 2026"/></a> <a href="https://github.com/oyon79?tab=overview&from=2025-01-01&to=2025-12-31"><img src="https://img.shields.io/badge/2025-21262d?style=for-the-badge" alt="Contributions in 2025"/></a> <a href="https://github.com/oyon79?tab=overview&from=2024-01-01&to=2024-12-31"><img src="https://img.shields.io/badge/2024-21262d?style=for-the-badge" alt="Contributions in 2024"/></a> <a href="https://github.com/oyon79?tab=overview&from=2023-01-01&to=2023-12-31"><img src="https://img.shields.io/badge/2023-21262d?style=for-the-badge" alt="Contributions in 2023"/></a>
+
+</div>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
