@@ -128,34 +128,32 @@ ${col(160, cur, "Current Streak", "#22d3ee", "days")}
 ${col(267, longest, "Longest Streak", "#34d399", longest ? `ending ${fmt(longestEnd)}` : "days")}
 </svg>\n`;
 
-  // line chart of the last 30 days
+  // animated bar chart of the last 30 days
   const last = past.slice(-30);
-  const W = 900, H = 300, L = 46, R = 20, T = 44, B = 44;
+  const W = 900, H = 230, L = 44, R = 20, T = 62, B = 36;
   const max = Math.max(4, ...last.map((d) => d.n));
   const top = Math.ceil(max / 4) * 4;
-  const x = (k) => L + (k * (W - L - R)) / Math.max(1, last.length - 1);
+  const slot = (W - L - R) / Math.max(1, last.length), bw = Math.min(18, slot * 0.58);
   const y = (v) => T + (H - T - B) * (1 - v / top);
-  const pts = last.map((d, k) => [x(k), y(d.n)]);
-  // smooth path (Catmull-Rom -> cubic Bezier), clamped to the baseline
-  let line = `M${pts[0][0]},${pts[0][1]}`;
-  for (let k = 0; k < pts.length - 1; k++) {
-    const p0 = pts[k - 1] || pts[k], p1 = pts[k], p2 = pts[k + 1], p3 = pts[k + 2] || p2;
-    const c = (v) => Math.min(H - B, Math.max(T, v));
-    line += ` C${(p1[0] + (p2[0] - p0[0]) / 6).toFixed(1)},${c(p1[1] + (p2[1] - p0[1]) / 6).toFixed(1)} ${(p2[0] - (p3[0] - p1[0]) / 6).toFixed(1)},${c(p2[1] - (p3[1] - p1[1]) / 6).toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;
-  }
-  const area = `${line} L${pts.at(-1)[0]},${H - B} L${pts[0][0]},${H - B} Z`;
-  const grid = [0, 1, 2, 3, 4].map((k) => { const v = (top / 4) * k; return `<line x1="${L}" y1="${y(v)}" x2="${W - R}" y2="${y(v)}" stroke="#21262d"/><text x="${L - 8}" y="${y(v) + 4}" ${font} font-size="11" fill="#8b949e" text-anchor="end">${v}</text>`; }).join("");
-  const xl = last.map((d, k) => (k % 2 === 0 || k === last.length - 1 ? `<text x="${x(k)}" y="${H - B + 18}" ${font} font-size="10" fill="#8b949e" text-anchor="middle">${+d.date.slice(8)}</text>` : "")).join("");
-  const dots = pts.map((p, k) => `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3.5" fill="${["#22d3ee", "#a78bfa", "#f472b6", "#34d399"][k % 4]}"/>`).join("");
+  const sum = last.reduce((a, d) => a + d.n, 0);
+  const grid = [0, 1, 2, 3, 4].map((k) => { const v = (top / 4) * k; return `<line x1="${L}" y1="${y(v)}" x2="${W - R}" y2="${y(v)}" stroke="#21262d"${k ? ' stroke-dasharray="3 4"' : ""}/><text x="${L - 8}" y="${y(v) + 4}" ${font} font-size="10" fill="#8b949e" text-anchor="end">${v}</text>`; }).join("");
+  const bars = last.map((d, k) => {
+    const cx = L + slot * k + slot / 2, h = d.n ? Math.max(4, y(0) - y(d.n)) : 3, by = y(0) - h;
+    const bar = `<rect class="bar" style="animation-delay:${(k * 0.035).toFixed(2)}s" x="${(cx - bw / 2).toFixed(1)}" y="${by.toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="${Math.min(4, bw / 2)}" fill="${d.n ? "url(#g)" : "#21262d"}"/>`;
+    const val = d.n ? `<text class="val" style="animation-delay:${(k * 0.035 + 0.5).toFixed(2)}s" x="${cx.toFixed(1)}" y="${(by - 6).toFixed(1)}" ${font} font-size="11" font-weight="600" fill="#c9d1d9" text-anchor="middle">${d.n}</text>` : "";
+    const lab = k % 2 === 0 || k === last.length - 1 ? `<text x="${cx.toFixed(1)}" y="${H - B + 16}" ${font} font-size="10" fill="#8b949e" text-anchor="middle">${+d.date.slice(8)}</text>` : "";
+    return bar + val + lab;
+  }).join("");
   const range = last.length ? `${fmt(last[0].date)} – ${fmt(last.at(-1).date)}` : "";
-  const chart = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Contribution activity for the last 30 days, ${range}">
-<defs><linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a78bfa" stop-opacity=".35"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
-<linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+  const chart = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Contribution activity for the last 30 days, ${range}: ${sum} contributions">
+<style>.bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow .7s cubic-bezier(.22,1,.36,1) both}.val{animation:fade .4s ease-out both}@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}@keyframes fade{from{opacity:0}to{opacity:1}}</style>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
 <rect width="${W}" height="${H}" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="${W / 2}" y="28" ${font} font-size="16" font-weight="600" fill="#58a6ff" text-anchor="middle">${esc(cfg.username)}'s Contribution Graph</text>
-${grid}<path d="${area}" fill="url(#a)"/><path d="${line}" fill="none" stroke="url(#l)" stroke-width="2.5" stroke-linecap="round"/>${dots}${xl}
-<text x="${W / 2}" y="${H - 8}" ${font} font-size="11" fill="#8b949e" text-anchor="middle">Day of month (${range})</text>
-<text x="14" y="${H / 2}" ${font} font-size="11" fill="#8b949e" text-anchor="middle" transform="rotate(-90 14 ${H / 2})">Contributions</text>
+<text x="${L}" y="32" ${font} font-size="15" font-weight="600" fill="#58a6ff">Contribution Activity</text>
+<text x="${L}" y="49" ${font} font-size="11" fill="#8b949e">${range} · last 30 days</text>
+<text x="${W - R}" y="32" ${font} font-size="15" font-weight="600" fill="#34d399" text-anchor="end">${sum}</text>
+<text x="${W - R}" y="49" ${font} font-size="11" fill="#8b949e" text-anchor="end">contributions</text>
+${grid}${bars}
 </svg>\n`;
   await mkdir(path.join(root, "stats"), { recursive: true });
   await writeFile(path.join(root, "stats/streak.svg"), streak);

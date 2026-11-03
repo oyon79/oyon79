@@ -61,12 +61,11 @@ Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the h
 
 ## Contribution Graph
 
-<img src="./stats/activity.svg" alt="Contribution activity line chart for the last 30 days" width="100%"/>
+<img src="./stats/activity.svg" alt="Animated bar chart of contributions for the last 30 days" width="100%"/>
 
 <div align="center">
 
-<sub>Contributions by year</sub><br/>
-<a href="https://github.com/oyon79?tab=overview&from=2026-01-01&to=2026-12-31"><img src="https://img.shields.io/badge/2026-21262d?style=for-the-badge" alt="Contributions in 2026"/></a> <a href="https://github.com/oyon79?tab=overview&from=2025-01-01&to=2025-12-31"><img src="https://img.shields.io/badge/2025-21262d?style=for-the-badge" alt="Contributions in 2025"/></a> <a href="https://github.com/oyon79?tab=overview&from=2024-01-01&to=2024-12-31"><img src="https://img.shields.io/badge/2024-21262d?style=for-the-badge" alt="Contributions in 2024"/></a> <a href="https://github.com/oyon79?tab=overview&from=2023-01-01&to=2023-12-31"><img src="https://img.shields.io/badge/2023-21262d?style=for-the-badge" alt="Contributions in 2023"/></a>
+<sub>View contributions by year</sub> &nbsp; <a href="https://github.com/oyon79?tab=overview&from=2026-01-01&to=2026-12-31"><img src="https://img.shields.io/badge/2026-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2026"/></a> <a href="https://github.com/oyon79?tab=overview&from=2025-01-01&to=2025-12-31"><img src="https://img.shields.io/badge/2025-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2025"/></a> <a href="https://github.com/oyon79?tab=overview&from=2024-01-01&to=2024-12-31"><img src="https://img.shields.io/badge/2024-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2024"/></a> <a href="https://github.com/oyon79?tab=overview&from=2023-01-01&to=2023-12-31"><img src="https://img.shields.io/badge/2023-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2023"/></a>
 
 </div>
 
