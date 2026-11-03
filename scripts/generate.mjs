@@ -19,7 +19,7 @@ const api = async (p) => {
 // ---------- Projects: link only repos that exist and are public ----------
 async function projects() {
   const cards = [];
-  for (const p of cfg.projects) {
+  for (const [i, p] of cfg.projects.entries()) {
     let url = null;
     if (p.repo) {
       try {
@@ -27,11 +27,19 @@ async function projects() {
         if (!r.private) url = r.html_url;
       } catch (e) { console.warn(`! not linking ${p.name}: ${e.message}`); }
     }
-    const title = url ? `### [${p.name}](${url})` : `### ${p.name}`;
     const stack = p.stack.map((s) => `\`${s}\``).join(" ");
-    cards.push([title, "", p.description + (p.highlight ? `<br>${p.highlight}` : ""), "", stack].join("\n"));
+    cards.push([
+      `<details${i === 0 ? " open" : ""}>`,
+      `<summary><b>${p.name}</b> &nbsp;·&nbsp; <sub>${p.stack.join(" · ")}</sub></summary>`,
+      "",
+      p.description + (p.highlight ? `<br>${p.highlight}` : ""),
+      "",
+      stack + (url ? ` &nbsp; [🔗 View repository](${url})` : ""),
+      "",
+      "</details>",
+    ].join("\n"));
   }
-  const body = cards.join("\n\n<br>\n\n");
+  const body = cards.join("\n\n");
   const file = path.join(root, "README.md");
   const md = await readFile(file, "utf8");
   const re = /<!-- PROJECTS:START -->[\s\S]*?<!-- PROJECTS:END -->/;

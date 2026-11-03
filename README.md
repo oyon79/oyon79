@@ -76,35 +76,41 @@ Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the h
 
 <!-- PROJECTS:START -->
 
-### Israt Caregiver SaaS
+<details open>
+<summary><b>Israt Caregiver SaaS</b> &nbsp;·&nbsp; <sub>Next.js · React · NestJS · TypeScript</sub></summary>
 
 Healthcare SaaS platform for managing caregiving services.
 
 `Next.js` `React` `NestJS` `TypeScript`
 
-<br>
+</details>
 
-### [UIU Social Connect](https://github.com/oyon79/UIU-Social-Connect)
+<details>
+<summary><b>UIU Social Connect</b> &nbsp;·&nbsp; <sub>Node.js · Express · Socket.IO · MySQL</sub></summary>
 
 Social networking platform for UIU students with a feed, messaging and community features.
 
-`Node.js` `Express` `Socket.IO` `MySQL`
+`Node.js` `Express` `Socket.IO` `MySQL` &nbsp; [🔗 View repository](https://github.com/oyon79/UIU-Social-Connect)
 
-<br>
+</details>
 
-### SafetyNet
+<details>
+<summary><b>SafetyNet</b> &nbsp;·&nbsp; <sub>React Native · Spring Boot</sub></summary>
 
 Personal safety-focused mobile application.<br>🏆 **1st Runner-Up**, UIU AOOP Project Show, Fall 2025.
 
 `React Native` `Spring Boot`
 
-<br>
+</details>
 
-### [Krishoker Ponno](https://github.com/oyon79/Krishoker_Ponno)
+<details>
+<summary><b>Krishoker Ponno</b> &nbsp;·&nbsp; <sub>Flutter · Supabase</sub></summary>
 
 Agriculture-focused platform connecting farmers with the market.
 
-`Flutter` `Supabase`
+`Flutter` `Supabase` &nbsp; [🔗 View repository](https://github.com/oyon79/Krishoker_Ponno)
+
+</details>
 
 <!-- PROJECTS:END -->
 
