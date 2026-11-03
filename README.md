@@ -1,16 +1,8 @@
 <div align="center">
 
-<a href="https://github.com/oyon79">
-  <img src="./assets/typing.svg" alt="Typing animation: Md. Sahriar Hossain, Software Developer, Full Stack Developer, Backend Engineering Enthusiast" width="100%" style="max-width:760px"/>
-</a>
+<a href="https://github.com/oyon79"><img src="./assets/typing.svg" alt="Typing animation: Md. Sahriar Hossain, Full Stack Developer, Backend Engineering Enthusiast" width="700"/></a>
 
-<br/>
-
-<a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn"/></a>&nbsp;&nbsp;
-<a href="https://github.com/oyon79"><img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/></a>&nbsp;&nbsp;
-<a href="mailto:mdsahriar2620@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email"/></a>
-
-<br/><br/>
+<a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://github.com/oyon79"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a> <a href="mailto:mdsahriar2620@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 
 <img src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/>
 
