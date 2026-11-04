@@ -1,11 +1,11 @@
-<div align="center">
-
 <table width="100%">
   <tr>
-    <td align="left"><a href="https://wakatime.com/@55ad3ba2-bc63-4310-8f53-a34ddb00bfff"><img src="https://wakatime.com/badge/user/55ad3ba2-bc63-4310-8f53-a34ddb00bfff.svg?style=flat" alt="WakaTime coding time"/></a></td>
-    <td align="right"><img src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/></td>
+    <td align="left" width="50%"><a href="https://wakatime.com/@55ad3ba2-bc63-4310-8f53-a34ddb00bfff"><img src="https://wakatime.com/badge/user/55ad3ba2-bc63-4310-8f53-a34ddb00bfff.svg?style=flat" alt="WakaTime coding time"/></a></td>
+    <td align="right" width="50%"><img src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/></td>
   </tr>
 </table>
+
+<div align="center">
 
 <a href="https://github.com/oyon79"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=44&lines=HI!+I+am+Md.+Sahriar+Hossain;Full+Stack+Developer;Aspiring+AI%2FML+Engineer" alt="Typing animation: HI! I am Md. Sahriar Hossain, Full Stack Developer, Aspiring AI/ML Engineer"/></a>
 
