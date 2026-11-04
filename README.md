@@ -21,12 +21,12 @@ I'm a CSE graduate from UIU who likes building full-stack products end to end, f
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">🎓 <b>Education</b><br/>CSE Graduate<br/><sub>United International University (UIU)</sub></td>
-    <td width="50%" valign="top">💼 <b>Experience</b><br/>Full Stack Intern<br/><sub>Softeins Lab · Architecture &amp; Backend</sub></td>
+    <td width="50%" valign="top">🎓 <b>Education</b><br/>CSE Graduate<br/><sub>United International University (UIU)</sub><br/><img src="./assets/spacer.svg" alt="" width="1000" height="1"/></td>
+    <td width="50%" valign="top">💼 <b>Experience</b><br/>Full Stack Intern<br/><sub>Softeins Lab · Architecture &amp; Backend</sub><br/><img src="./assets/spacer.svg" alt="" width="1000" height="1"/></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">🤖 <b>Aspiring</b><br/>AI/ML Engineer<br/><sub>Data-driven logic &amp; models</sub></td>
-    <td width="50%" valign="top">💡 <b>Core Focus</b><br/>AI/ML · Scalable Architecture<br/><sub>Problem Solving</sub></td>
+    <td width="50%" valign="top">🤖 <b>Aspiring</b><br/>AI/ML Engineer<br/><sub>Data-driven logic &amp; models</sub><br/><img src="./assets/spacer.svg" alt="" width="1000" height="1"/></td>
+    <td width="50%" valign="top">💡 <b>Core Focus</b><br/>AI/ML · Scalable Architecture<br/><sub>Problem Solving</sub><br/><img src="./assets/spacer.svg" alt="" width="1000" height="1"/></td>
   </tr>
 </table>
 
