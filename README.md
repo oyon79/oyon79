@@ -1,10 +1,17 @@
-<table width="100%">
-  <tr>
-    <td width="30%" align="center" valign="middle"><a href="https://github.com/oyon79"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=260&height=44&lines=HI!+I+am+Md.+Sahriar+Hossain;Full+Stack+Developer;Aspiring+AI%2FML+Engineer" alt="Typing animation: HI! I am Md. Sahriar Hossain, Full Stack Developer, Aspiring AI/ML Engineer"/></a></td>
-    <td width="30%" align="center" valign="middle"><a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://github.com/oyon79"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a> <a href="mailto:mdsahriar2620@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a></td>
-    <td width="40%" valign="middle"><a href="https://wakatime.com/@55ad3ba2-bc63-4310-8f53-a34ddb00bfff"><img align="left" src="https://wakatime.com/badge/user/55ad3ba2-bc63-4310-8f53-a34ddb00bfff.svg?style=flat" alt="WakaTime coding time"/></a><img align="right" src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/></td>
-  </tr>
-</table>
+<div align="center">
+
+<a href="https://github.com/oyon79"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=44&lines=HI!+I+am+Md.+Sahriar+Hossain;Full+Stack+Developer;Aspiring+AI%2FML+Engineer" alt="Typing animation: HI! I am Md. Sahriar Hossain, Full Stack Developer, Aspiring AI/ML Engineer"/></a>
+
+<a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://github.com/oyon79"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a> <a href="mailto:mdsahriar2620@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+
+</div>
+
+<div>
+<a href="https://wakatime.com/@55ad3ba2-bc63-4310-8f53-a34ddb00bfff"><img align="left" src="https://wakatime.com/badge/user/55ad3ba2-bc63-4310-8f53-a34ddb00bfff.svg?style=flat" alt="WakaTime coding time"/></a>
+<img align="right" src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/>
+</div>
+
+<br clear="all"/>
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 
