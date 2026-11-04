@@ -177,7 +177,7 @@ async function compose() {
   const place = (svg, x, y) => svg.replace("<svg ", `<svg x="${x}" y="${y}" `);
   const [c, l, st, stm] = await Promise.all(["github-stats.svg", "top-languages.svg", "streak.svg", "streak-mobile.svg"].map(read));
   const wrap = (w, h, body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">\n${body}\n</svg>\n`;
-  await writeFile(path.join(root, "stats/overview.svg"), wrap(908, 210, [place(c, 0, 0), place(l, 294, 0), place(st, 588, 0)].join("\n")));
+  await writeFile(path.join(root, "stats/overview.svg"), wrap(908, 210, [place(c, 0, 0), place(l, 334, 0), place(st, 668, 0)].join("\n")));
   await writeFile(path.join(root, "stats/overview-mobile.svg"), wrap(320, 654, [place(c, 0, 0), place(l, 0, 222), place(stm, 0, 444)].join("\n")));
   console.log("overview images composed");
 }
