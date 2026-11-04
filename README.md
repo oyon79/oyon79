@@ -58,7 +58,7 @@ I'm a CSE graduate from UIU who likes building full-stack products end to end, f
 
 <picture>
   <source media="(max-width: 600px)" srcset="./stats/overview-mobile.svg"/>
-  <img src="./stats/overview.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers, most used languages, and contribution streak" width="100%"/>
+  <img src="./stats/overview-row.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers, most used languages, and contribution streak" width="100%"/>
 </picture>
 
 <sub>Generated from public GitHub data by <code>scripts/generate.mjs</code> and refreshed every 6 hours. Counts cover public activity only.</sub>
