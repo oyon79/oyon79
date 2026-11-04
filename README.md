@@ -56,9 +56,10 @@ I'm a CSE graduate from UIU who likes building full-stack products end to end, f
 
 <div align="center">
 
-<img src="./stats/github-stats.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers" width="35%"/>
-<img src="./stats/top-languages.svg" alt="Most used languages with percentage bars" width="35%"/>
-<img src="./stats/streak.svg" alt="GitHub streak: total contributions, current streak and longest streak" width="26%"/>
+<picture>
+  <source media="(max-width: 600px)" srcset="./stats/overview-mobile.svg"/>
+  <img src="./stats/overview.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers, most used languages, and contribution streak" width="100%"/>
+</picture>
 
 <sub>Generated from public GitHub data by <code>scripts/generate.mjs</code> and refreshed every 6 hours. Counts cover public activity only.</sub>
 
@@ -68,7 +69,10 @@ I'm a CSE graduate from UIU who likes building full-stack products end to end, f
 
 ## Contribution Graph
 
-<img src="./stats/contribution-activity.svg" alt="Animated bar chart of contributions for the last 30 days" width="100%"/>
+<picture>
+  <source media="(max-width: 600px)" srcset="./stats/contribution-activity-mobile.svg"/>
+  <img src="./stats/contribution-activity.svg" alt="Animated bar chart of contributions for the last 30 days" width="100%"/>
+</picture>
 
 <div align="center">
 

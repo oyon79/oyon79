@@ -117,23 +117,26 @@ async function contrib() {
   if (i >= 0 && !past[i].n) i--; // today may not have activity yet
   for (; i >= 0 && past[i].n; i--) cur++;
   const fmt = (d) => new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric" });
-  const row = (i, big, label, color, sub) => { const t = 52 + i * 52;
-    return `<text x="20" y="${t + 24}" ${font} font-size="28" font-weight="700" fill="${color}">${big}</text>
-<text x="220" y="${t + 24}" ${font} font-size="12" fill="#8b949e" text-anchor="end">${sub}</text>
+  const streakSvg = (SW) => {
+    const row = (i, big, label, color, sub) => { const t = 52 + i * 52;
+      return `<text x="20" y="${t + 24}" ${font} font-size="28" font-weight="700" fill="${color}">${big}</text>
+<text x="${SW - 20}" y="${t + 24}" ${font} font-size="12" fill="#8b949e" text-anchor="end">${sub}</text>
 <text x="20" y="${t + 42}" ${font} font-size="13" fill="#c9d1d9">${label}</text>`; };
-  const streak = `<svg xmlns="http://www.w3.org/2000/svg" width="240" height="210" viewBox="0 0 240 210" role="img" aria-label="GitHub streak: ${total} contributions in the last year, current streak ${cur} days, longest streak ${longest} days">
-<rect width="240" height="210" rx="10" fill="#0d1117" stroke="#30363d"/>
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="${SW}" height="210" viewBox="0 0 ${SW} 210" role="img" aria-label="GitHub streak: ${total} contributions in the last year, current streak ${cur} days, longest streak ${longest} days">
+<rect width="${SW}" height="210" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="34" ${font} font-size="20" font-weight="700" fill="#58a6ff">Streak</text>
-<line x1="20" y1="102" x2="220" y2="102" stroke="#30363d"/><line x1="20" y1="154" x2="220" y2="154" stroke="#30363d"/>
+<line x1="20" y1="102" x2="${SW - 20}" y2="102" stroke="#30363d"/><line x1="20" y1="154" x2="${SW - 20}" y2="154" stroke="#30363d"/>
 ${row(0, total, "Contributions", "#58a6ff", "Last 12 months")}
 ${row(1, cur, "Current Streak", "#22d3ee", "days")}
 ${row(2, longest, "Longest Streak", "#34d399", longest ? `ending ${fmt(longestEnd)}` : "days")}
 </svg>
-`;
+`; };
+  const streak = streakSvg(240), streakMobile = streakSvg(320);
 
-  // animated bar chart of the last 30 days
-  const last = past.slice(-30);
-  const W = 900, H = 205, L = 44, R = 20, T = 58, B = 32;
+  // animated bar chart of the last N days (30 on desktop, 14 on the mobile variant)
+  const chartSvg = (W, H, count) => {
+  const last = past.slice(-count);
+  const L = 44, R = 20, T = 58, B = 32;
   const max = Math.max(4, ...last.map((d) => d.n));
   const top = Math.ceil(max / 4) * 4;
   const slot = (W - L - R) / Math.max(1, last.length), bw = Math.min(18, slot * 0.58);
@@ -148,22 +151,38 @@ ${row(2, longest, "Longest Streak", "#34d399", longest ? `ending ${fmt(longestEn
     return bar + val + lab;
   }).join("");
   const range = last.length ? `${fmt(last[0].date)} – ${fmt(last.at(-1).date)}` : "";
-  const chart = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Contribution activity for the last 30 days, ${range}: ${sum} contributions">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Contribution activity for the last ${count} days, ${range}: ${sum} contributions">
 <style>.bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow .7s cubic-bezier(.22,1,.36,1) both}.val{animation:fade .4s ease-out both}@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}@keyframes fade{from{opacity:0}to{opacity:1}}</style>
 <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
 <rect width="${W}" height="${H}" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="${L}" y="32" ${font} font-size="15" font-weight="600" fill="#58a6ff">Contribution Activity</text>
-<text x="${L}" y="49" ${font} font-size="11" fill="#8b949e">${range} · last 30 days</text>
+<text x="${L}" y="49" ${font} font-size="11" fill="#8b949e">${range} · last ${count} days</text>
 <text x="${W - R}" y="32" ${font} font-size="15" font-weight="600" fill="#34d399" text-anchor="end">${sum}</text>
 <text x="${W - R}" y="49" ${font} font-size="11" fill="#8b949e" text-anchor="end">contributions</text>
 ${grid}${bars}
 </svg>\n`;
+  };
+  const chart = chartSvg(900, 205, 30), chartMobile = chartSvg(360, 230, 14);
   await mkdir(path.join(root, "stats"), { recursive: true });
   await writeFile(path.join(root, "stats/streak.svg"), streak);
+  await writeFile(path.join(root, "stats/streak-mobile.svg"), streakMobile);
+  await writeFile(path.join(root, "stats/contribution-activity-mobile.svg"), chartMobile);
   await writeFile(path.join(root, "stats/contribution-activity.svg"), chart);
   console.log(`contrib: total ${total}, current streak ${cur}, longest ${longest}`);
+}
+
+// ---------- Overview: the three stat cards as one image (row on desktop, stack on mobile) ----------
+async function compose() {
+  const read = (f) => readFile(path.join(root, "stats", f), "utf8");
+  const place = (svg, x, y) => svg.replace("<svg ", `<svg x="${x}" y="${y}" `);
+  const [c, l, st, stm] = await Promise.all(["github-stats.svg", "top-languages.svg", "streak.svg", "streak-mobile.svg"].map(read));
+  const wrap = (w, h, body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">\n${body}\n</svg>\n`;
+  await writeFile(path.join(root, "stats/overview.svg"), wrap(908, 210, [place(c, 0, 0), place(l, 294, 0), place(st, 588, 0)].join("\n")));
+  await writeFile(path.join(root, "stats/overview-mobile.svg"), wrap(320, 654, [place(c, 0, 0), place(l, 0, 222), place(stm, 0, 444)].join("\n")));
+  console.log("overview images composed");
 }
 
 if (doAll || args.includes("--projects")) await projects();
 if (doAll || args.includes("--stats")) await stats();
 if (doAll || args.includes("--contrib")) await contrib();
+if (doAll || args.includes("--contrib")) await compose();
