@@ -17,14 +17,16 @@
 
 ## About Me
 
-Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the human side of engineering: solving complex problems, designing smart architecture and building intelligent systems.
+I'm a CSE graduate from UIU who likes building full-stack products end to end, from backend architecture to the interface. I'm currently interning at Softeins Lab and working toward a career in AI/ML.
 
 <table width="100%">
   <tr>
-    <td width="25%" valign="top">🎓 <b>Education</b><br/>CSE Graduate<br/>United International University (UIU)</td>
-    <td width="25%" valign="top">💼 <b>Experience</b><br/>Full Stack Intern<br/>Softeins Lab · Architecture &amp; Backend</td>
-    <td width="25%" valign="top">🤖 <b>Aspiring</b><br/>AI/ML Engineer<br/>Data-driven logic &amp; models</td>
-    <td width="25%" valign="top">💡 <b>Core Focus</b><br/>AI/ML · Scalable Architecture<br/>Problem Solving</td>
+    <td width="50%" valign="top">🎓 <b>Education</b><br/>CSE Graduate<br/><sub>United International University (UIU)</sub></td>
+    <td width="50%" valign="top">💼 <b>Experience</b><br/>Full Stack Intern<br/><sub>Softeins Lab · Architecture &amp; Backend</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">🤖 <b>Aspiring</b><br/>AI/ML Engineer<br/><sub>Data-driven logic &amp; models</sub></td>
+    <td width="50%" valign="top">💡 <b>Core Focus</b><br/>AI/ML · Scalable Architecture<br/><sub>Problem Solving</sub></td>
   </tr>
 </table>
 
