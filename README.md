@@ -1,10 +1,15 @@
 <div align="center">
 
+<table width="100%">
+  <tr>
+    <td align="left"><a href="https://wakatime.com/@55ad3ba2-bc63-4310-8f53-a34ddb00bfff"><img src="https://wakatime.com/badge/user/55ad3ba2-bc63-4310-8f53-a34ddb00bfff.svg?style=flat" alt="WakaTime coding time"/></a></td>
+    <td align="right"><img src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/></td>
+  </tr>
+</table>
+
 <a href="https://github.com/oyon79"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=24&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=44&lines=HI!+I+am+Md.+Sahriar+Hossain;Full+Stack+Developer;Aspiring+AI%2FML+Engineer" alt="Typing animation: HI! I am Md. Sahriar Hossain, Full Stack Developer, Aspiring AI/ML Engineer"/></a>
 
 <a href="https://www.linkedin.com/in/md-sahriar-hossain-671545255/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="https://github.com/oyon79"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a> <a href="mailto:mdsahriar2620@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-
-<a href="https://wakatime.com/@55ad3ba2-bc63-4310-8f53-a34ddb00bfff"><img src="https://wakatime.com/badge/user/55ad3ba2-bc63-4310-8f53-a34ddb00bfff.svg?style=flat" alt="WakaTime coding time"/></a> <img src="https://komarev.com/ghpvc/?username=oyon79&label=Profile+views&color=0e75b6&style=flat" alt="Profile views"/>
 
 </div>
 
@@ -49,9 +54,9 @@ Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the h
 
 <div align="center">
 
-<img src="./stats/github-stats.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers" width="32%"/>
-<img src="./stats/top-languages.svg" alt="Most used languages with percentage bars" width="32%"/>
-<img src="./stats/streak.svg" alt="GitHub streak: total contributions, current streak and longest streak" width="32%"/>
+<img src="./stats/github-stats.svg" alt="GitHub statistics: stars, repositories, commits, pull requests, issues and followers" width="35%"/>
+<img src="./stats/top-languages.svg" alt="Most used languages with percentage bars" width="35%"/>
+<img src="./stats/streak.svg" alt="GitHub streak: total contributions, current streak and longest streak" width="26%"/>
 
 <sub>Generated from public GitHub data by <code>scripts/generate.mjs</code> and refreshed every 6 hours. Counts cover public activity only.</sub>
 
@@ -68,50 +73,6 @@ Hello, I'm **Md. Sahriar Hossain**. While AI can generate code, I focus on the h
 <sub>View contributions by year</sub> &nbsp; <a href="https://github.com/oyon79?tab=overview&from=2026-01-01&to=2026-12-31"><img src="https://img.shields.io/badge/2026-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2026"/></a> <a href="https://github.com/oyon79?tab=overview&from=2025-01-01&to=2025-12-31"><img src="https://img.shields.io/badge/2025-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2025"/></a> <a href="https://github.com/oyon79?tab=overview&from=2024-01-01&to=2024-12-31"><img src="https://img.shields.io/badge/2024-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2024"/></a> <a href="https://github.com/oyon79?tab=overview&from=2023-01-01&to=2023-12-31"><img src="https://img.shields.io/badge/2023-21262d?style=flat-square&logo=github&logoColor=white" alt="Contributions in 2023"/></a>
 
 </div>
-
-<img src="./assets/divider.svg" alt="" width="100%"/>
-
-## Featured Projects
-
-<!-- PROJECTS:START -->
-
-<details open>
-<summary><b>Israt Caregiver SaaS</b> &nbsp;·&nbsp; <sub>Next.js · React · NestJS · TypeScript</sub></summary>
-
-Healthcare SaaS platform for managing caregiving services.
-
-`Next.js` `React` `NestJS` `TypeScript`
-
-</details>
-
-<details>
-<summary><b>UIU Social Connect</b> &nbsp;·&nbsp; <sub>Node.js · Express · Socket.IO · MySQL</sub></summary>
-
-Social networking platform for UIU students with a feed, messaging and community features.
-
-`Node.js` `Express` `Socket.IO` `MySQL` &nbsp; [🔗 View repository](https://github.com/oyon79/UIU-Social-Connect)
-
-</details>
-
-<details>
-<summary><b>SafetyNet</b> &nbsp;·&nbsp; <sub>React Native · Spring Boot</sub></summary>
-
-Personal safety-focused mobile application.<br>🏆 **1st Runner-Up**, UIU AOOP Project Show, Fall 2025.
-
-`React Native` `Spring Boot`
-
-</details>
-
-<details>
-<summary><b>Krishoker Ponno</b> &nbsp;·&nbsp; <sub>Flutter · Supabase</sub></summary>
-
-Agriculture-focused platform connecting farmers with the market.
-
-`Flutter` `Supabase` &nbsp; [🔗 View repository](https://github.com/oyon79/Krishoker_Ponno)
-
-</details>
-
-<!-- PROJECTS:END -->
 
 <img src="./assets/divider.svg" alt="" width="100%"/>
 

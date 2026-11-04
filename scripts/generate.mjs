@@ -43,7 +43,7 @@ async function projects() {
   const file = path.join(root, "README.md");
   const md = await readFile(file, "utf8");
   const re = /<!-- PROJECTS:START -->[\s\S]*?<!-- PROJECTS:END -->/;
-  if (!re.test(md)) throw new Error("PROJECTS markers missing in README.md");
+  if (!re.test(md)) { console.log("projects section not in README, skipping"); return; }
   await writeFile(file, md.replace(re, `<!-- PROJECTS:START -->\n\n${body}\n\n<!-- PROJECTS:END -->`));
   console.log("projects section updated");
 }
@@ -69,10 +69,10 @@ async function stats() {
     ["Pull Requests", prs], ["Issues", issues], ["Followers", user.followers]];
   const date = new Date().toISOString().slice(0, 10);
 
-  const card = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="GitHub statistics snapshot for ${u}">
-<rect width="320" height="180" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="30" ${font} font-size="15" font-weight="600" fill="#58a6ff">GitHub Stats</text>
-${rows.map(([k, v], i) => `<text x="20" y="${58 + i * 21}" ${font} font-size="12" fill="#c9d1d9">${k}</text><text x="300" y="${58 + i * 21}" ${font} font-size="12" font-weight="600" text-anchor="end" fill="${["#a78bfa", "#22d3ee", "#34d399"][i % 3]}">${v}</text>`).join("\n")}
+  const card = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="210" viewBox="0 0 320 210" role="img" aria-label="GitHub statistics snapshot for ${u}">
+<rect width="320" height="210" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="34" ${font} font-size="20" font-weight="700" fill="#58a6ff">GitHub Stats</text>
+${rows.map(([k, v], i) => `<text x="20" y="${68 + i * 25}" ${font} font-size="15" fill="#c9d1d9">${k}</text><text x="300" y="${68 + i * 25}" ${font} font-size="15" font-weight="700" text-anchor="end" fill="${["#a78bfa", "#22d3ee", "#34d399"][i % 3]}">${v}</text>`).join("\n")}
 </svg>\n`;
 
   const bytes = {};
@@ -81,11 +81,11 @@ ${rows.map(([k, v], i) => `<text x="20" y="${58 + i * 21}" ${font} font-size="12
   }
   const total = Object.values(bytes).reduce((a, b) => a + b, 0) || 1;
   const top = Object.entries(bytes).sort((a, b) => b[1] - a[1]).slice(0, 6);
-  const langs = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="Most used languages snapshot for ${u}">
-<rect width="320" height="180" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="30" ${font} font-size="15" font-weight="600" fill="#58a6ff">Most Used Languages</text>
-${top.map(([l, b], i) => { const pct = (b / total) * 100; const y = 54 + i * 20;
-  return `<text x="20" y="${y}" ${font} font-size="11" fill="#c9d1d9">${esc(l)}</text><text x="300" y="${y}" ${font} font-size="11" fill="#8b949e" text-anchor="end">${pct.toFixed(1)}%</text>
+  const langs = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="210" viewBox="0 0 320 210" role="img" aria-label="Most used languages snapshot for ${u}">
+<rect width="320" height="210" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="34" ${font} font-size="20" font-weight="700" fill="#58a6ff">Most Used Languages</text>
+${top.map(([l, b], i) => { const pct = (b / total) * 100; const y = 66 + i * 25;
+  return `<text x="20" y="${y}" ${font} font-size="14" fill="#c9d1d9">${esc(l)}</text><text x="300" y="${y}" ${font} font-size="14" fill="#8b949e" text-anchor="end">${pct.toFixed(1)}%</text>
 <rect x="20" y="${y + 4}" width="280" height="4" rx="2" fill="#21262d"/><rect x="20" y="${y + 4}" width="${Math.max(3, 2.8 * pct).toFixed(1)}" height="4" rx="2" fill="${COLORS[l] || "#58a6ff"}"/>`; }).join("\n")}
 </svg>\n`;
 
@@ -117,16 +117,19 @@ async function contrib() {
   if (i >= 0 && !past[i].n) i--; // today may not have activity yet
   for (; i >= 0 && past[i].n; i--) cur++;
   const fmt = (d) => new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric" });
-  const col = (x, big, label, color, sub) => `<text x="${x}" y="88" ${font} font-size="28" font-weight="700" fill="${color}" text-anchor="middle">${big}</text>
-<text x="${x}" y="114" ${font} font-size="11" fill="#c9d1d9" text-anchor="middle">${label}</text><text x="${x}" y="132" ${font} font-size="10" fill="#8b949e" text-anchor="middle">${sub}</text>`;
-  const streak = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="GitHub streak: ${total} contributions in the last year, current streak ${cur} days, longest streak ${longest} days">
-<rect width="320" height="180" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="30" ${font} font-size="15" font-weight="600" fill="#58a6ff">Contribution Streak</text>
-<line x1="107" y1="62" x2="107" y2="142" stroke="#30363d"/><line x1="213" y1="62" x2="213" y2="142" stroke="#30363d"/>
-${col(53, total, "Contributions", "#58a6ff", "Last 12 months")}
-${col(160, cur, "Current Streak", "#22d3ee", "days")}
-${col(267, longest, "Longest Streak", "#34d399", longest ? `ending ${fmt(longestEnd)}` : "days")}
-</svg>\n`;
+  const row = (i, big, label, color, sub) => { const t = 52 + i * 52;
+    return `<text x="20" y="${t + 24}" ${font} font-size="28" font-weight="700" fill="${color}">${big}</text>
+<text x="220" y="${t + 24}" ${font} font-size="12" fill="#8b949e" text-anchor="end">${sub}</text>
+<text x="20" y="${t + 42}" ${font} font-size="13" fill="#c9d1d9">${label}</text>`; };
+  const streak = `<svg xmlns="http://www.w3.org/2000/svg" width="240" height="210" viewBox="0 0 240 210" role="img" aria-label="GitHub streak: ${total} contributions in the last year, current streak ${cur} days, longest streak ${longest} days">
+<rect width="240" height="210" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="34" ${font} font-size="20" font-weight="700" fill="#58a6ff">Streak</text>
+<line x1="20" y1="102" x2="220" y2="102" stroke="#30363d"/><line x1="20" y1="154" x2="220" y2="154" stroke="#30363d"/>
+${row(0, total, "Contributions", "#58a6ff", "Last 12 months")}
+${row(1, cur, "Current Streak", "#22d3ee", "days")}
+${row(2, longest, "Longest Streak", "#34d399", longest ? `ending ${fmt(longestEnd)}` : "days")}
+</svg>
+`;
 
   // animated bar chart of the last 30 days
   const last = past.slice(-30);

@@ -1,11 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="GitHub streak: 77 contributions in the last year, current streak 2 days, longest streak 3 days">
-<rect width="320" height="180" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="30" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="15" font-weight="600" fill="#58a6ff">Contribution Streak</text>
-<line x1="107" y1="62" x2="107" y2="142" stroke="#30363d"/><line x1="213" y1="62" x2="213" y2="142" stroke="#30363d"/>
-<text x="53" y="88" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="28" font-weight="700" fill="#58a6ff" text-anchor="middle">77</text>
-<text x="53" y="114" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11" fill="#c9d1d9" text-anchor="middle">Contributions</text><text x="53" y="132" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="middle">Last 12 months</text>
-<text x="160" y="88" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="28" font-weight="700" fill="#22d3ee" text-anchor="middle">2</text>
-<text x="160" y="114" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11" fill="#c9d1d9" text-anchor="middle">Current Streak</text><text x="160" y="132" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="middle">days</text>
-<text x="267" y="88" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="28" font-weight="700" fill="#34d399" text-anchor="middle">3</text>
-<text x="267" y="114" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="11" fill="#c9d1d9" text-anchor="middle">Longest Streak</text><text x="267" y="132" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="middle">ending May 16</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="210" viewBox="0 0 240 210" role="img" aria-label="GitHub streak: 78 contributions in the last year, current streak 2 days, longest streak 3 days">
+<rect width="240" height="210" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="34" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="20" font-weight="700" fill="#58a6ff">Streak</text>
+<line x1="20" y1="102" x2="220" y2="102" stroke="#30363d"/><line x1="20" y1="154" x2="220" y2="154" stroke="#30363d"/>
+<text x="20" y="76" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="28" font-weight="700" fill="#58a6ff">78</text>
+<text x="220" y="76" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="end">Last 12 months</text>
+<text x="20" y="94" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="13" fill="#c9d1d9">Contributions</text>
+<text x="20" y="128" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="28" font-weight="700" fill="#22d3ee">2</text>
+<text x="220" y="128" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="end">days</text>
+<text x="20" y="146" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="13" fill="#c9d1d9">Current Streak</text>
+<text x="20" y="180" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="28" font-weight="700" fill="#34d399">3</text>
+<text x="220" y="180" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="end">ending May 16</text>
+<text x="20" y="198" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="13" fill="#c9d1d9">Longest Streak</text>
 </svg>
